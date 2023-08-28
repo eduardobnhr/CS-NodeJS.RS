@@ -4,6 +4,7 @@
   "description": "version-1",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,11 +13,10 @@
   ],
   "author": "luis eduardo",
   "license": "ISC",
-  "devDependencies": {
-    "cfonts": "^3.2.0"
-  },
   "dependencies": {
+    "cfonts": "^3.2.0",
     "inquire": "^0.4.8",
+    "moment": "^2.29.4",
     "opn": "^6.0.0"
   }
 }
